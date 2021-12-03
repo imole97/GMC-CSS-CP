@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to HTML</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="profile">
+        <img
+          src="./images/profile.jpg"
+          width="200"
+          height="200"
+          alt="profile picture"
+        />
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--------------- ABOUT SECTION  ----------------->
+    <section class="about">
+      <div class="content-wrap">
+        <h1>Imoleayo</h1>
+        <h2>MERN Stack Developer trainee at GoMyCode</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem provident magnam nam voluptates doloremque nemo eum
+          explicabo facilis. Blanditiis inventore, nam quibusdam accusamus
+          incidunt nobis ullam. Aspernatur dolor unde iste quis, dicta laborum
+          ad aut accusamus autem assumenda! Perspiciatis a et ratione, ex minus
+          laborum id aliquid possimus, nam, dignissimos delectus! Nulla corrupti
+          cumque asperiores quia voluptatum sed maxime consequuntur?
+        </p>
+      </div>
+    </section>
+
+    <!-------------- RESUME SECTION -------------------->
+    <section class="resume">
+      <!-- Work experrience section -->
+      <section>
+        <div class="content-wrap">
+          <h2>Work Experience</h2>
+          <p>Paragraph for work experience summary</p>
+
+          <!-- Job item section  -->
+          <section>
+            <div>
+              <h3>Job Title</h3>
+              <p>Company Name</p>
+              <p>Date at job</p>
+            </div>
+
+            <div>
+              <p>Job summary goes here.</p>
+              <p>Optional list:</p>
+              <ul>
+                <li>Created...</li>
+                <li>Lead...</li>
+                <li>Responsible for...</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <!-- End of job block -->
+      </section>
+
+      <!----------- Project  ------------->
+      <section class="project">
+        <div class="content-wrap">
+          <h2>My featured Project(s)</h2>
+          <p>Paragraph for Project Summary...</p>
+
+          <!-- project item section -->
+          <section>
+            <h3>Project Name</h3>
+            <p>Project description summary...</p>
+            <a href="#" target="_blank">View My Project(s)</a>
+          </section>
+        </div>
+        <!-- End of Project block -->
+      </section>
+    </section>
+
+    <!---------- Education  ----------->
+    <section class="education">
+      <div class="content-wrap">
+        <h2>Education</h2>
+
+        <!----------- education item section  -->
+        <section>
+          <h3>School name - City</h3>
+          <p>Program name, year attended</p>
+          <p>Summary or accomplishments</p>
+        </section>
+      </div>
+      <!-- End of education block -->
+    </section>
+
+    <!---------------- CONTACT SECTION  ------------->
+    <section class="contact">
+      <div class="content-wrap">
+        <h2>Sign Up for My Newsletters and Updates</h2>
+        <form action="">
+          <div>
+            <input type="text" placeholder="First Name..." required />
+          </div>
+
+          <div>
+            <input type="text" placeholder="Last Name..." required />
+          </div>
+
+          <div>
+            <input type="email" placeholder="E-mail..." required />
+          </div>
+
+          <div>
+            <input
+              type="password"
+              placeholder="Password..."
+              size="25"
+              required
+            />
+          </div>
+
+          <div>
+            <textarea
+              name=""
+              id=""
+              cols="50"
+              rows="10"
+              placeholder="write something..."
+            ></textarea>
+            <div><button class="submit" type="submit">Submit</button></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!---------------- VIDEO AND AUDIO SECTION  --------------->
+
+    <section class="video-audio">
+      <!-------------- Video Section  --------------->
+      <div class="content-wrap">
+        <div>
+          <h2>Watch and Enjoy</h2>
+          <video width="320" height="240" controls>
+            <source src="./videos/short.mp4" type="video/mp4" />
+            Your browser doesn't support this video
+          </video>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/sVPYIRF9RCQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <!-------------- Audio Section  --------------->
+      <div class="content-wrap">
+        <h2>Listen and Enjoy</h2>
+        <audio src="./audio/jay.mp3" controls type="audio/mpeg">
+          Your browser doesn't support this video element
+        </audio>
+      </div>
+    </section>
+
+    <!------------- CONTACT INFO & SOCIAL MEDIA  --------->
+    <footer class="footer">
+      <div class="content-wrap">
+        <h2>Let's Keep in Touch!</h2>
+
+        <!---------- Social media and contact links ------>
+        <div class="socials">
+          <ul>
+            <li>
+              <a href="mailto:imoleadebanj097@gmail.com">send me a mail</a>
+            </li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
